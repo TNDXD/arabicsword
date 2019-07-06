@@ -478,8 +478,7 @@ const fetchVideoInfo = require('youtube-info');
 const YouTube = require('simple-youtube-api');
 const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");//youtube api key
 const queue = new Map();//the queue map
-const token = process.env.BOT_TOKEN//your bot token
-const prefix = '+'//your prefix
+const prefix = '-'
 
 
 //All copytights for Eyad & (old) Codes
@@ -781,14 +780,7 @@ function play(guild, song) {
 	.setThumbnail('http://cdn.akhbaar24.com/430e061a-f89a-43c7-86d9-82fae5f7c495.jpg')
 	.setColor('#ff0000')
 	.setTimestamp()
-});
-})
-})
-})
-})
-})
-})
-}
+    }
 });
 
 
